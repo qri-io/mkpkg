@@ -1,0 +1,15 @@
+Name: "Qri CLI"
+BinName: "qri"
+Identifier: "io.qri.cli"
+Version: "v0.5.0"
+Description: "qri is a web of datasets"
+Darwin:
+  WelcomeMsg: |
+    The following steps will guide you to installing the qri command line client. Once installed you'll have access to qri from the command line.
+
+    Please note that this is not the qri desktop app, for more info on the desktop app check https://qri.io/downloads
+  ConclusionMsg: |
+    Thanks for installing qri CLI. For documentation and tutorials be sure to check out https://docs.qri.io
+  MinOSXVersion: "10.6.0"
+  BgPngPath: assets/darwin/bg.png
+  BinPath: /go/bin/qri
